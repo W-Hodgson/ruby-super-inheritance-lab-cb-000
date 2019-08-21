@@ -11,3 +11,6 @@ class ChattyStudent < Student
     end
   end
 end
+
+bob = ChattyStudent.new
+bob.raise_hand
